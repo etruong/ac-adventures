@@ -1,0 +1,25 @@
+# Challenge 3: Instructions
+
+Tom Nook helps his villagers whenever they need it. This time, it's your turn to help a villager out: by fixing Fauna's phone! 
+
+1. Fauna phone's screen broke! Add a <p> tag with the id "input" at the start of the #phone div, this will act as phone screen
+2. The buttons aren't working either! Add on click event listeners to each of the buttons that do the following:
+    - number buttons should add to the textContent of the #input see an example in the javascript file
+    - Optional Challenge: back button should remove the last number of the textContent typed using string manipulation 
+    (Hint: use .substring() and .length)
+3. All the buttons should be working except the call button, when you click on the call button the following should happen in the call function:
+    - hide the #phone by adding the .hidden class
+    - show the #response by removing the .hidden class
+
+**Nice job so far! At this point you should be able to click on the buttons and it should show up in the #input and press call should hide the #phone and show the #response**
+
+4. Almost there, whenever you call someone it should change the content in the #response depending on who you are calling. So the number 1234 should connect to one villager and 5432 should connect to another. Change the content of the #response based on the number that was dialed:
+    - Grab the textContent of #input 
+    - Access the contact variable that contains information about the villager with that contact using bracket notation (ex. if the textContent of #input is 1234 access their information by doing contact["1234"])
+    - Change the #response p textContent to the message of villager you are calling
+    - Change the #response img src to the photo of villager you are calling
+    - Try various numbers in the contact variable to see how you can access other villagers
+
+5. Lastly, Add an on click event listener to the #end-btn to end the call with the villager by hiding the #response (adding the .hidden class) and removing the .hidden class from the #phone
+
+6. Call this number: 1234 and press completed tasks. If you correctly completed all the tasks it should reveal the passcode

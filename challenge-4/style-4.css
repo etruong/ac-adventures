@@ -1,0 +1,54 @@
+main {
+    background-color: transparent;
+}
+
+main > div:nth-child(2) {
+    background-color: white;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+main > div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 20px;
+}
+
+main h2, main p {
+    margin: 0;
+}
+
+main p {
+    background-color: palegoldenrod;
+    padding: 5px;
+    font-size: small;
+    border-radius: 3px;
+    color: brown;
+    font-family: 'Arvo', 'Times New Roman', Times, serif;
+}
+
+select {
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+main #controls {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.item {
+    max-width: 40px;
+    padding: 2px;
+    margin: 2px;
+}
+
+.selected {
+    border-radius: 300px;
+    border: 1px solid red;
+}

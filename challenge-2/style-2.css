@@ -1,0 +1,35 @@
+main > div:nth-child(1) {
+    height: 350px;
+    background-image: url("https://i.pinimg.com/originals/e1/93/bd/e193bdf6fd996f87ffb35fa5dcef1971.png");
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+main > div:nth-child(2) {
+    margin-top: 5px;
+    background-color: #d8ccb6;
+    height: 100px;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+html {
+    background-image: none;
+    background-color: #d8ccb6;
+}
+
+main img {
+    max-width: 30px;
+}
+
+.trash {
+    max-width: 50px;
+}
+
+.house {
+    max-width: 100px;
+}

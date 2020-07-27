@@ -1,0 +1,24 @@
+# Challenge 1: Instructions
+We're going back to the  b a s i c s for this coding challenge meaning we're going to be going back to HTML and CSS. Tom Nook creates weekly newsletters to his villagers and since you're subbing in for him you need to make the newsletter. 
+
+**Note you will be doing all of your coding in the <main> tag in the challenge-1.html and style-1.css file. If you choose to add behavior/code in the javascript file you can do so!**
+
+## Requirements:
+- Divide the content into three sections using the <section> tag, the sections should be about and contain the ids: #events, #news, and #villager-spotlight
+
+- Make sure to name your newsletter using the <h1> tag
+
+- Make sure each section contains a <h2> tag
+
+- The villager spotlight section needs to have an <img> of a villager
+
+- The content is up to you, but make sure you have at least:
+    - 3 <p> tags
+    - 3 <img> tags
+    - 1 list tag (<ul> or <ol>)
+
+- The styling is up to you also! Make sure you create and use at least
+    - 3 classes
+    - have at least 3 styling properties total
+
+- If you want you can share your newsletter to the discord! It'll be fun to see :)

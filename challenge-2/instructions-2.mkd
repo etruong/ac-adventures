@@ -1,0 +1,20 @@
+# Challenge 2: Instructions
+
+**Note you will be doing all of your coding in the challenge-2.js file. DO NOT modify the HTML code!**
+
+Tom Nook always helped people move in by clearing out the land and setting up a tent. You need to do the same! Follow these instructions to rearrange your town and move the new villager in:
+
+1. Clear out the trash and weeds from the land by removing the DOM element from #land
+
+2. Remove the items that aren't trash (i.e. apples, presents, and the axe) from the #land and add them to your #inventory
+
+3. Add the villager's tent by creating a DOM img element with the following traits:
+    - src equal to https://www.animal-crossing.com/new-horizons/assets/img/create/location-char.png 
+    - alt attribute equal to "tent"
+    - contain class equal to "house"
+
+*At this step (4) you can manipulate the HTML and CSS code*
+4. (Optional) Challenge: Rearrange using what you know about flexbox and CSS layout to place each house into one corner of the #land.
+
+5. Click the completed tasks button to reveal the passcode for the adventure!
+    
