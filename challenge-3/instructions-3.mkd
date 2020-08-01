@@ -1,12 +1,11 @@
-# Challenge 3: Instructions
+# (Optional) Challenge 3: Instructions
 
 Tom Nook helps his villagers whenever they need it. This time, it's your turn to help a villager out: by fixing Fauna's phone! 
 
 1. Fauna phone's screen broke! Add a <p> tag with the id "input" at the start of the #phone div, this will act as phone screen
 2. The buttons aren't working either! Add on click event listeners to each of the buttons that do the following:
     - number buttons should add to the textContent of the #input see an example in the javascript file
-    - Optional Challenge: back button should remove the last number of the textContent typed using string manipulation 
-    (Hint: use .substring() and .length)
+    - (hint: use a for loop!)
 3. All the buttons should be working except the call button, when you click on the call button the following should happen in the call function:
     - hide the #phone by adding the .hidden class
     - show the #response by removing the .hidden class

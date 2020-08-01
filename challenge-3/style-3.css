@@ -93,3 +93,7 @@ button#end-btn {
 button#call-btn {
     width: 110px;
 }
+
+#complete-btn {
+    visibility: hidden;
+}

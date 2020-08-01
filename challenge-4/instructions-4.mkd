@@ -1,0 +1,43 @@
+# Instructions: Challenge 4
+
+1. Using the storeItems array which contains all the items (string) the store carries, populate the dropdown menu with option DOM elements
+    - Remember to set the textContent and value of the option equal to the store item name
+
+2. Create the createFruit function that does the following:
+
+Note: the "type" parameter is a string of the name of the type of fruit it is and the info parameter is the object containing store information about the fruit (with fields: price, src, and count)
+
+    - Create an img DOM element
+    - sets the src of img to the info.src
+    - sets the alt of the img to the type variable
+    - adds "item" and the type value to the classList of the img DOM
+    - adds an on click event listener that toggles the class of the img "selected"
+    - returns the img DOM element
+
+3. Code and call the function populateStore that traverses the storeItems array generating the number of fruits based on the store object variable and appending them to the div containing the id store
+    - create a variable called storeContainer that equals the <div> with the id store
+    - create a nested loop where the outer loop traverses the storeItems array and the inner loop creates and appends the number of fruits (i.e. count) that is found in the store variable of a particular fruit type
+    (ex. if I accessed store["apple"].count this would give me 2) to the div containing the id store
+
+4. Code the function sell that does the following:
+    - select all the DOM elements with the class "selected"
+    - declares a variable total that keeps track of profit of one selling instance
+    - loops through the DOM elements with the class selected removing them from the <div id="store"> and adding the price of the selected DOM fruit element to the total
+    - calls the changeProfit (which you will create in step 6) passing in the variable total 
+
+5. Create a on click event listener for the button with the id sell-btn that calls the sell function
+
+6. Code the changeProfit function that does the following:
+    - selects the element with the id profit
+    - changes it's textContent to be the sum of it's previous textContent value added with the num variable parameter passed in
+    (hint use parseInt)
+
+7. Sell all your fruit in the store and click completed tasks! It will reveal the passcode to your animal crossing adventure
+
+8. Optional Challenge: When you run out of inventory of a specific fruit, you should be able to restock by ordering more. 
+    - Create a function called orderFruit that does that following:
+        - Grabs the value of the dropdown of what fruit the user wants to specifically order
+        - creates the fruit using the createFruit function
+        - appends the fruit to the store
+
+
