@@ -32,7 +32,7 @@ function check() {
     }
 
     let header = document.querySelector("main h1");
-    if (!header || header.length != 1) {
+    if (!header) {
         alert("You forgot a header for your newsletter!");
         return
     }
