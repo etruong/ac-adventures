@@ -13,5 +13,5 @@ function check() {
         return
     }
 
-    alert("Congratulations! The password is: ");
+    alert("Congratulations! The password is: Gotta Get Bells");
 }

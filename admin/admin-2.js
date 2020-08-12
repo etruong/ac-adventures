@@ -33,5 +33,5 @@ function check() {
         return
     }
 
-    alert("Congrats! The passcode is: ");
+    alert("Congrats! The passcode is: home sweet home");
 }
