@@ -28,7 +28,7 @@ function check() {
     }
 
     let apple = document.querySelectorAll("#inventory .apple");
-    if (apple.length != 5) {
+    if (apple.length != 3) {
         alert("You didn't place all the apples in your inventory");
         return
     }
